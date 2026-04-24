@@ -1,0 +1,60 @@
+# ── Raw & processed data ──────────────────────────────────────────────────────
+*.csv
+*.parquet
+*.dta
+*.sas7bdat
+*.feather
+*.pkl
+*.pickle
+data/raw/
+data/processed/
+outputs/
+
+# Allow small committed outputs (remove the ! lines if you want nothing committed)
+!outputs/.gitkeep
+!outputs/tables/.gitkeep
+!outputs/figures/.gitkeep
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.whl
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+*.textClipping
+
+# ── IDE / editors ─────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.suo
+*.user
+*.swp
+*~
+
+# ── Archives & large blobs ────────────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.7z
+*.docx
+
+# ── Docs ──────────────────────────────────────────────────────────────────────
+docs/
